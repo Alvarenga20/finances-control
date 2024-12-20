@@ -118,7 +118,7 @@ const Login = () => {
           </p>
         </div>
         <div>
-          <p className='text-black text-xl'>No backend configuration</p>
+          <p className='mt-4 text-xl text-center'>No backend configuration</p>
           <button
             className='ml-12 mt-6 text-3xl underline'
             onClick={() => navigate('/dashboard')}
