@@ -4,12 +4,12 @@ I also took the opportunity to add some basic features like login and signup aut
 
 Some of technologies that I used the most are:
 
-React
-React Router
-TypeScript
-Tailwind CSS
-Chart.js
-Context API
-Firebase
+-React
+-React Router
+-TypeScript
+-Tailwind CSS
+-Chart.js
+-Context API
+-Firebase
 
 Please, share your feedback with me
