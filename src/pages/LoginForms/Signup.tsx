@@ -41,7 +41,7 @@ const SignUp = () => {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         placeholder=" "
-                        className="text-black dark:text-white dark:bg-gray-600 dark:border-none"
+                        className="text-black dark:text-white bg-white dark:bg-gray-600 dark:border-none"
                         disabled={loading}
                     />
                     <label>Email</label>
@@ -53,7 +53,7 @@ const SignUp = () => {
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
                         placeholder=" "
-                        className="text-black dark:text-white dark:bg-gray-600 dark:border-none"
+                        className="text-black dark:text-white bg-white dark:bg-gray-600 dark:border-none"
                         disabled={loading}
                     />
                     <label>Password</label>
@@ -65,7 +65,7 @@ const SignUp = () => {
                         value={confirmPassword}
                         onChange={(e) => setConfirmPassword(e.target.value)}
                         placeholder=" "
-                        className="text-black dark:text-white dark:bg-gray-600 dark:border-none"
+                        className="text-black dark:text-white bg-white dark:bg-gray-600 dark:border-none"
                         disabled={loading}
                     />
                     <label>Confirm Password</label>

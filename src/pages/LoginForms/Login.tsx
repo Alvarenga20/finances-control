@@ -46,8 +46,8 @@ const Login = () => {
   }
 
   return (
-    <div id="app-container" className="bg-white dark:bg-gray-900 text-black dark:text-white rounded-lg">
-      <div className="login-container">
+    <div id="login-bg-container">
+      <div className="login-container bg-white dark:bg-gray-900 text-black dark:text-white rounded-lg">
         <form onSubmit={handleEmailLogin} className="login-form bg-white dark:bg-gray-800 p-6 rounded shadow-lg">
           <div className="input-container">
             <input
@@ -55,7 +55,7 @@ const Login = () => {
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder=" "
-              className="text-black dark:text-white dark:bg-gray-600 dark:border-none"
+              className="text-black dark:text-white bg-white dark:bg-gray-600 dark:border-none"
               disabled={loading}
             />
             <label>Email</label>
@@ -67,7 +67,7 @@ const Login = () => {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder=" "
-              className="text-black dark:text-white dark:bg-gray-600 dark:border-none"
+              className="text-black dark:text-white bg-white dark:bg-gray-600 dark:border-none"
               disabled={loading}
             />
             <label>Password</label>
@@ -117,7 +117,7 @@ const Login = () => {
             </a>
           </p>
         </div>
-        <div>
+        <div className='text-center'>
           <p className='mt-10 text-xl'>No backend configuration</p>
           <button
             className='text-3xl underline'
