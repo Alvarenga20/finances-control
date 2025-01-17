@@ -76,3 +76,6 @@ The app is built using several powerful and modern technologies, frameworks, and
 - **Transaction Modal**: A modal used for viewing and editing individual transactions.
 - **Expense Tracker**: Displays a chart or visual representation of the user's income and expenses.
 - **Transaction List**: Shows the most recent transactions and allows for easy tracking.
+
+#### For quick test you can access it in: 
+https://finances-control.netlify.app/
